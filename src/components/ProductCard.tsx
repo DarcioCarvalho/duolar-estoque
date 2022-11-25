@@ -13,7 +13,7 @@ export function ProductCard({ stockProduct }: ProductCardProps) {
   return (
     <div
       className="max-w-53 h-87 p-2 bg-gray-600 rounded-lg hover:cursor-pointer"
-      onClick={() => navigate(`${import.meta.env.VITE_GITHUB_BASE_PROJECT}/productDetail/${stockProduct.id}`)}
+      onClick={() => navigate(`/productDetail/${stockProduct.id}`   /* `${import.meta.env.VITE_GITHUB_BASE_PROJECT}/productDetail/${stockProduct.id}` */)}
     >
       <div className="flex flex-col max-w-49 h-83 p-2 bg-gray-100 rounded-lg">
 

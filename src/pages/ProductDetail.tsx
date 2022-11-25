@@ -35,7 +35,7 @@ export function ProductDetail() {
 
         <Link
           className="flex flex-row ml-1 md:ml-6 relative -top-6 items-center w-min"
-          onClick={() => navigate(`${import.meta.env.VITE_GITHUB_BASE_PROJECT}/`)}
+          onClick={() => navigate("/"   /* `${import.meta.env.VITE_GITHUB_BASE_PROJECT}/` */)}
         >
 
           <CaretLeft weight="bold" className="w-5 h-5 md:w-7 md:h-7" />
