@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,7 +32,7 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: Build project
+    needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
