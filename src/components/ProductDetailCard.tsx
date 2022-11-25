@@ -17,7 +17,7 @@ export function ProductDetailCard({ stockProduct }: ProductDetailCardProps) {
 
             <img
               className="mx-auto max-h-42 md:max-h-128"
-              src={`/assets/products/${stockProduct.product.imageURL}`}
+              src={`./assets/products/${stockProduct.product.imageURL}`}
               alt={`${stockProduct.product.name} - ${stockProduct.product.branch}`}
             />
 

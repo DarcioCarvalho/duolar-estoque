@@ -13,7 +13,7 @@ export function ProductCard({ stockProduct }: ProductCardProps) {
   return (
     <div
       className="max-w-53 h-87 p-2 bg-gray-600 rounded-lg hover:cursor-pointer"
-      onClick={() => navigate(`/productDetail/${stockProduct.id}`   /* `${import.meta.env.VITE_GITHUB_BASE_PROJECT}/productDetail/${stockProduct.id}` */)}
+      onClick={() => navigate(`/productDetail/${stockProduct.id}`)}
     >
       <div className="flex flex-col max-w-49 h-83 p-2 bg-gray-100 rounded-lg">
 
@@ -21,7 +21,7 @@ export function ProductCard({ stockProduct }: ProductCardProps) {
           <div className="w-45 h-45">
             <img
               className="max-h-45 mx-auto"
-              src={`/assets/products/${stockProduct.product.imageURL}`}
+              src={`./assets/products/${stockProduct.product.imageURL}`}
               alt={`${stockProduct.product.name} - ${stockProduct.product.branch}`}
             />
           </div>
