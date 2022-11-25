@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: './' /* mode === "development" ? '' : '/duolar-estoque/' */
+    base: mode === "development" ? '' : '/duolar-estoque/'
   }
 
 })
