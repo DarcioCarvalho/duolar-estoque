@@ -7,6 +7,7 @@ interface ProductDetailCardProps {
 }
 
 export function ProductDetailCard({ stockProduct }: ProductDetailCardProps) {
+  console.log('meta: ', import.meta.env.BASE_URL);
 
   return (
     <div className="-mt-4 md:mt-3 p-1.5 md:p-2 bg-gray-600 rounded-lg">
@@ -17,7 +18,7 @@ export function ProductDetailCard({ stockProduct }: ProductDetailCardProps) {
 
             <img
               className="mx-auto max-h-42 md:max-h-128"
-              src={`../assets/products/${stockProduct.product.imageURL}`}
+              src={`${import.meta.env.BASE_URL}assets/products/${stockProduct.product.imageURL}`}
               alt={`${stockProduct.product.name} - ${stockProduct.product.branch}`}
             />
 

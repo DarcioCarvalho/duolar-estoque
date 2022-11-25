@@ -21,7 +21,7 @@ export function ProductCard({ stockProduct }: ProductCardProps) {
           <div className="w-45 h-45">
             <img
               className="max-h-45 mx-auto"
-              src={`../assets/products/${stockProduct.product.imageURL}`}
+              src={`${import.meta.env.BASE_URL}assets/products/${stockProduct.product.imageURL}`}
               alt={`${stockProduct.product.name} - ${stockProduct.product.branch}`}
             />
           </div>
