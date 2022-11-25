@@ -17,8 +17,6 @@ export function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const product = getStock(Number(slug));
 
-
-
   return (
     <div className="flex flex-col max-w-300 h-screen mx-auto">
 
@@ -37,7 +35,7 @@ export function ProductDetail() {
 
         <Link
           className="flex flex-row ml-1 md:ml-6 relative -top-6 items-center w-min"
-          onClick={() => navigate('/')}
+          onClick={() => navigate(`${import.meta.env.VITE_GITHUB_BASE_PROJECT}/`)}
         >
 
           <CaretLeft weight="bold" className="w-5 h-5 md:w-7 md:h-7" />
