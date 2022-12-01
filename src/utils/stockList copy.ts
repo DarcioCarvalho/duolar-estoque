@@ -10,7 +10,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criado Mudo 1 Gaveta Copacabana',
       branch: 'Riamar',
-      imageURL: ''
+      imageURL: '',
+      size: {
+        width: '47cm',
+        height: '47cm',
+        depth: '45cm'
+      }
     },
     amount: 4
   },
@@ -19,7 +24,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Cômoda 4 Gavetas Copacabana',
       branch: 'Riamar',
-      imageURL: 'riamóveis-cômoda-4-gavetas.png'
+      imageURL: 'riamóveis-cômoda-4-gavetas.png',
+      size: {
+        width: '87cm',
+        height: '1,02m',
+        depth: '40cm'
+      }
     },
     amount: 3
   },
@@ -28,7 +38,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Painel Maxi 1.80 Naturale para TV de até 60"',
       branch: 'EDN',
-      imageURL: 'edn-painel-max-180-nature-ambientada.jpg'
+      imageURL: 'edn-painel-max-180-nature-ambientada.jpg',
+      size: {
+        width: '1,80m',
+        height: '1,20m',
+        depth: '28,5cm'
+      }
     },
     amount: 4
   },
@@ -37,7 +52,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Painel Navi Branco/Ripado para TV de até 47"',
       branch: 'Bechara',
-      imageURL: 'bechara-painel-navi-120-branco_ripado-01.png'
+      imageURL: 'bechara-painel-navi-120-branco_ripado-01.png',
+      size: {
+        width: '1,20m',
+        height: '90cm',
+        depth: '28,5cm'
+      }
     },
     amount: 1
   },
@@ -46,7 +66,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Kit de Cozinha Magda 6 Portas Capuccino/Off White',
       branch: 'Poquema',
-      imageURL: 'poquema-kit-6-portas-magda-capuccino_off-white-01.png'
+      imageURL: 'poquema-kit-6-portas-magda-capuccino_off-white-01.png',
+      size: {
+        width: '90cm',
+        height: '1,72m',
+        depth: '35cm'
+      }
     },
     amount: 1
   },
@@ -55,7 +80,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Painel Lexus Castanho',
       branch: 'Província',
-      imageURL: 'província-painel-lexus-castanho-02.png'
+      imageURL: 'província-painel-lexus-castanho-02.png',
+      size: {
+        width: '1,80m',
+        height: '1,07m',
+        depth: '30cm'
+      }
     },
     amount: 1
   },
@@ -64,7 +94,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Painel Feel 1.4 Natura',
       branch: 'Província',
-      imageURL: 'provincia-painel-feel-1_4-natura.png'
+      imageURL: 'provincia-painel-feel-1_4-natura.png',
+      size: {
+        width: '1,35m',
+        height: '1,33m',
+        depth: '22cm'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -74,7 +109,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Armário com Prateleira 270 Branco',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-arm-prateleira-270-2-g.png'
+      imageURL: 'bella-vercelli-arm-prateleira-270-2-g.png',
+      size: {
+        width: '41cm',
+        height: '97cm',
+        depth: '40cm'
+      }
     },
     amount: 2
   },
@@ -83,7 +123,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Armário para Galão de Água 1 Porta e 1 Gaveta 225 Branco',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-armario-225-branco.png'
+      imageURL: 'bella-vercelli-armario-225-branco.png',
+      size: {
+        width: '41cm',
+        height: '81cm',
+        depth: '40cm'
+      }
     },
     amount: 1
   },
@@ -92,7 +137,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Armário para Galão de Água 1 Porta e 1 Gaveta 225 Branco/Preto',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-armario-225-preto_branco.png'
+      imageURL: 'bella-vercelli-armario-225-preto_branco.png',
+      size: {
+        width: '41cm',
+        height: '81cm',
+        depth: '40cm'
+      }
     },
     amount: 2
   },
@@ -101,7 +151,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Armário Roma 2 Portas e 1 Gaveta 480 Branco/Preto',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-armario-roma-480-preto.png'
+      imageURL: 'bella-vercelli-armario-roma-480-preto.png',
+      size: {
+        width: '58cm',
+        height: '97cm',
+        depth: '40cm'
+      }
     },
     amount: 1
   },
@@ -110,7 +165,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Fruteira Pop 3 cestas e 1 Gaveta 290 Branco/Preto',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-fruteira-pop-290-branco_preto.png'
+      imageURL: 'bella-vercelli-fruteira-pop-290-branco_preto.png',
+      size: {
+        width: '40cm',
+        height: '97cm',
+        depth: '33cm'
+      }
     },
     amount: 4
   },
@@ -119,7 +179,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Fruteira Pop 3 cestas e 1 Gaveta 290 Branco',
       branch: 'Bella Vercelli',
-      imageURL: 'bella-vercelli-fruteira-pop-branco.png'
+      imageURL: 'bella-vercelli-fruteira-pop-branco.png',
+      size: {
+        width: '40cm',
+        height: '97cm',
+        depth: '33cm'
+      }
     },
     amount: 2
   },
@@ -128,7 +193,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Treliche Tabaco',
       branch: 'Porto Madero',
-      imageURL: 'porto-madero-treliche-tabaco.jpg'
+      imageURL: 'porto-madero-treliche-tabaco.jpg',
+      size: {
+        width: '94cm',
+        height: '1,90m',
+        depth: '2,02m'
+      }
     },
     amount: 1
   },
@@ -146,7 +216,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Cômoda 4 Gavetas Barcelona Branco',
       branch: 'Lanza',
-      imageURL: 'lanza-comoda-barcelona--branco.jpg'
+      imageURL: 'lanza-comoda-barcelona--branco.jpg',
+      size: {
+        width: '75cm',
+        height: '1,07m',
+        depth: '45cm'
+      }
     },
     amount: 1
   },
@@ -155,7 +230,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Guarda Roupa 4 Portas Pádua Noce Bronze',
       branch: 'Lanza',
-      imageURL: 'lanza-roupeiro-padua-noce.png'
+      imageURL: 'lanza-roupeiro-padua-noce.png',
+      size: {
+        width: '1,63m',
+        height: '2,34m',
+        depth: '56cm'
+      }
     },
     amount: 1
   },
@@ -164,7 +244,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Cama Casal 1.40 Montreal Plus Castanho Relevo',
       branch: 'Lanza',
-      imageURL: 'lanza-cama-casal-140-montreal-plus-castanho-relevo.jpg'
+      imageURL: 'lanza-cama-casal-140-montreal-plus-castanho-relevo.jpg',
+      size: {
+        width: '1,55m',
+        height: '1,21m',
+        depth: '2,06m'
+      }
     },
     amount: 1
   },
@@ -173,7 +258,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criadão 5 Gavetas Imbuia',
       branch: 'OMS',
-      imageURL: 'oms-criadao-5-gav-ref15.jpg'
+      imageURL: 'oms-criadao-5-gav-ref15.jpg',
+      size: {
+        width: '48cm',
+        height: '1,02m',
+        depth: '37,5cm'
+      }
     },
     amount: 2
   },
@@ -182,7 +272,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Cômoda Chiffonie 6 Gavetas Imbuia',
       branch: 'OMS',
-      imageURL: 'oms-comoda-chiffonie-6-gavetas-imbuia.png'
+      imageURL: 'oms-comoda-chiffonie-6-gavetas-imbuia.png',
+      size: {
+        width: '63cm',
+        height: '1,15m',
+        depth: '46cm'
+      }
     },
     amount: 2
   },
@@ -191,7 +286,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Rack Ravenna TB200 Terracota/Preto',
       branch: 'Dalla Costa',
-      imageURL: 'dalla-costa-rack-ravenna-tb200-terracota-preto.jpg'
+      imageURL: 'dalla-costa-rack-ravenna-tb200-terracota-preto.jpg',
+      size: {
+        width: '1,60m',
+        height: '59cm',
+        depth: '46cm'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -201,7 +301,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Rack Ravenna TB200 Terracota/Demolição',
       branch: 'Dalla Costa',
-      imageURL: 'dalla-costa-rack-ravenna-TB200-TD-demolicao.jpg'
+      imageURL: 'dalla-costa-rack-ravenna-TB200-TD-demolicao.jpg',
+      size: {
+        width: '1,60m',
+        height: '59cm',
+        depth: '46cm'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -211,7 +316,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criado Mudo Stilo Perola/Noce',
       branch: 'Albatroz',
-      imageURL: 'albatroz-criado-mudo-stilo-perola-noce.jpg'
+      imageURL: 'albatroz-criado-mudo-stilo-perola-noce.jpg',
+      size: {
+        width: '53cm',
+        height: '55cm',
+        depth: '36cm'
+      }
     },
     amount: 2
   },
@@ -229,7 +339,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criado Mudo 2 Gavetas Apolo Avelã/Carvalho',
       branch: 'Moval',
-      imageURL: 'moval-criado-mudo-apolo-avela-carvalho.png'
+      imageURL: 'moval-criado-mudo-apolo-avela-carvalho.png',
+      size: {
+        width: '46cm',
+        height: '61cm',
+        depth: '36cm'
+      }
     },
     amount: 2
   },
@@ -238,7 +353,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Mesa 1.30 com 4 Cadeiras Grande Branca',
       branch: 'Scholl',
-      imageURL: 'scholl-mesa-130x80-cadeira-grande-branca.jpg'
+      imageURL: 'scholl-mesa-130x80-cadeira-grande-branca.jpg',
+      size: {
+        width: '80cm',
+        height: '76cm',
+        depth: '1,30m'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -248,7 +368,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Mesa 90 Redonda Branca',
       branch: 'Duolar',
-      imageURL: 'duolar-mesa-redonda-branca.png'
+      imageURL: 'duolar-mesa-redonda-branca.png',
+      size: {
+        width: '90cm',
+        height: '76cm',
+        depth: '90cm'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -258,7 +383,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Colchão Solteiro D23 88x12 Sleep Max',
       branch: 'Castor',
-      imageURL: 'castor-colchao-d23-sleep-max-88x12.jpeg'
+      imageURL: 'castor-colchao-d23-sleep-max-88x12.jpeg',
+      size: {
+        width: '88cm',
+        height: '12cm',
+        depth: '1,88m'
+      }
     },
     amount: 2,
   },
@@ -267,7 +397,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Berço Ninho II Aviador',
       branch: 'Galzerano',
-      imageURL: 'galzerano-berço-ninho-II-aviador.jpg'
+      imageURL: 'galzerano-berço-ninho-II-aviador.jpg',
+      size: {
+        width: '79cm',
+        height: '79cm',
+        depth: '1,05cm'
+      }
     },
     amount: 1,
   },
@@ -276,7 +411,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Guarda Roupa Porta Deslizante Monte Carlos Imbuia Fosco',
       branch: 'RV',
-      imageURL: 'rv-roupeiro-monte-carlos-imbuia-fosco.jpg'
+      imageURL: 'rv-roupeiro-monte-carlos-imbuia-fosco.jpg',
+      size: {
+        width: '2,28m',
+        height: '2,32m',
+        depth: '58cm'
+      }
     },
     amount: 1,
     isAssembled: true
@@ -286,7 +426,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Colchão Casal D23 138x12 Light Liso',
       branch: 'Ortobom',
-      imageURL: 'ortobom-colchão-d23-138x12.jpeg'
+      imageURL: 'ortobom-colchão-d23-138x12.jpeg',
+      size: {
+        width: '1,38m',
+        height: '12cm',
+        depth: '1,88m'
+      }
     },
     amount: 5,
   },
@@ -304,7 +449,12 @@ export const stockList: Stock[] = [
     product: {
       name: 'Rack Caribean Imbuia Fosco',
       branch: 'RV',
-      imageURL: 'rv-rack-caribean-imbuia-fosco.png'
+      imageURL: 'rv-rack-caribean-imbuia-fosco.png',
+      size: {
+        width: '1,83m',
+        height: '68cm',
+        depth: '45cm'
+      }
     },
     amount: 1,
     isAssembled: true

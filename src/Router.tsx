@@ -6,8 +6,8 @@ export function Router() {
 
   return (
     <Routes>
-      <Route path={"/" /* `${import.meta.env.VITE_GITHUB_BASE_PROJECT}/` */} element={<ProductsList />} />
-      <Route path={"/productDetail/:slug"  /* `${import.meta.env.VITE_GITHUB_BASE_PROJECT}/productDetail/:slug` */} element={<ProductDetail />} />
+      <Route path={"/"} element={<ProductsList />} />
+      <Route path={"/productDetail/:slug"} element={<ProductDetail />} />
     </Routes>
   );
 }
