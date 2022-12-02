@@ -3,6 +3,7 @@ export type Product = {
   branch: string;
   imageURL: string;
   size?: Size;
+  price?: number;
 }
 
 export type Size = {

@@ -15,7 +15,8 @@ export const stockList: Stock[] = [
         width: '47cm',
         height: '47cm',
         depth: '45cm'
-      }
+      },
+      price: 15400 * 2
     },
     amount: 4
   },
@@ -29,7 +30,8 @@ export const stockList: Stock[] = [
         width: '87cm',
         height: '1,02m',
         depth: '40cm'
-      }
+      },
+      price: 44500 * 2
     },
     amount: 2
   },
@@ -43,7 +45,8 @@ export const stockList: Stock[] = [
         width: '1,80m',
         height: '1,20m',
         depth: '28,5cm'
-      }
+      },
+      price: 21500 * 2
     },
     amount: 4
   },
@@ -57,7 +60,8 @@ export const stockList: Stock[] = [
         width: '1,20m',
         height: '90cm',
         depth: '28,5cm'
-      }
+      },
+      price: 12500 * 2
     },
     amount: 1
   },
@@ -71,7 +75,8 @@ export const stockList: Stock[] = [
         width: '90cm',
         height: '1,72m',
         depth: '35cm'
-      }
+      },
+      price: 21000 * 2
     },
     amount: 1
   },
@@ -85,7 +90,8 @@ export const stockList: Stock[] = [
         width: '1,80m',
         height: '1,07m',
         depth: '30cm'
-      }
+      },
+      price: 14000 * 2
     },
     amount: 1
   },
@@ -99,7 +105,8 @@ export const stockList: Stock[] = [
         width: '1,35m',
         height: '1,33m',
         depth: '22cm'
-      }
+      },
+      price: 20000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -114,7 +121,8 @@ export const stockList: Stock[] = [
         width: '41cm',
         height: '97cm',
         depth: '40cm'
-      }
+      },
+      price: 17500 * 2
     },
     amount: 2
   },
@@ -128,7 +136,8 @@ export const stockList: Stock[] = [
         width: '41cm',
         height: '81cm',
         depth: '40cm'
-      }
+      },
+      price: 14500 * 2
     },
     amount: 0
   },
@@ -142,7 +151,8 @@ export const stockList: Stock[] = [
         width: '41cm',
         height: '81cm',
         depth: '40cm'
-      }
+      },
+      price: 14500 * 2
     },
     amount: 2
   },
@@ -156,7 +166,8 @@ export const stockList: Stock[] = [
         width: '58cm',
         height: '97cm',
         depth: '40cm'
-      }
+      },
+      price: 20000 * 2
     },
     amount: 1
   },
@@ -170,7 +181,8 @@ export const stockList: Stock[] = [
         width: '40cm',
         height: '97cm',
         depth: '33cm'
-      }
+      },
+      price: 15500 * 2
     },
     amount: 4
   },
@@ -184,7 +196,8 @@ export const stockList: Stock[] = [
         width: '40cm',
         height: '97cm',
         depth: '33cm'
-      }
+      },
+      price: 15500 * 2
     },
     amount: 2
   },
@@ -198,7 +211,8 @@ export const stockList: Stock[] = [
         width: '94cm',
         height: '1,90m',
         depth: '2,02m'
-      }
+      },
+      price: 35000 * 2
     },
     amount: 1
   },
@@ -207,7 +221,8 @@ export const stockList: Stock[] = [
     product: {
       name: 'Beliche 88 Imbuia',
       branch: 'M. Sul',
-      imageURL: 'msul-beliche-imbuia.png'
+      imageURL: 'msul-beliche-imbuia.png',
+      price: 55000 * 2
     },
     amount: 1
   },
@@ -221,7 +236,8 @@ export const stockList: Stock[] = [
         width: '75cm',
         height: '1,07m',
         depth: '45cm'
-      }
+      },
+      price: 26500 * 2
     },
     amount: 1
   },
@@ -235,7 +251,8 @@ export const stockList: Stock[] = [
         width: '1,63m',
         height: '2,34m',
         depth: '56cm'
-      }
+      },
+      price: 84500 * 2
     },
     amount: 1
   },
@@ -249,7 +266,8 @@ export const stockList: Stock[] = [
         width: '1,55m',
         height: '1,21m',
         depth: '2,06m'
-      }
+      },
+      price: 45000 * 2
     },
     amount: 1
   },
@@ -263,7 +281,8 @@ export const stockList: Stock[] = [
         width: '48cm',
         height: '1,02m',
         depth: '37,5cm'
-      }
+      },
+      price: 44500 * 2
     },
     amount: 1
   },
@@ -277,7 +296,8 @@ export const stockList: Stock[] = [
         width: '63cm',
         height: '1,15m',
         depth: '46cm'
-      }
+      },
+      price: 60000 * 2
     },
     amount: 2
   },
@@ -291,7 +311,8 @@ export const stockList: Stock[] = [
         width: '1,60m',
         height: '59cm',
         depth: '46cm'
-      }
+      },
+      price: 40000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -306,7 +327,8 @@ export const stockList: Stock[] = [
         width: '1,60m',
         height: '59cm',
         depth: '46cm'
-      }
+      },
+      price: 40000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -321,7 +343,8 @@ export const stockList: Stock[] = [
         width: '53cm',
         height: '55cm',
         depth: '36cm'
-      }
+      },
+      price: 7000 * 2
     },
     amount: 2
   },
@@ -330,7 +353,8 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criado Mudo 2 Gavetas Modena Camurça/Avelã',
       branch: 'Eucamóveis',
-      imageURL: 'eucamoveis-criado-mudo-modena-camurca_avela.png'
+      imageURL: 'eucamoveis-criado-mudo-modena-camurca_avela.png',
+      price: 6900 * 2
     },
     amount: 1
   },
@@ -344,7 +368,8 @@ export const stockList: Stock[] = [
         width: '46cm',
         height: '61cm',
         depth: '36cm'
-      }
+      },
+      price: 10000 * 2
     },
     amount: 2
   },
@@ -358,7 +383,8 @@ export const stockList: Stock[] = [
         width: '80cm',
         height: '76cm',
         depth: '1,30m'
-      }
+      },
+      price: 80000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -373,7 +399,8 @@ export const stockList: Stock[] = [
         width: '90cm',
         height: '76cm',
         depth: '90cm'
-      }
+      },
+      price: 35000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -388,7 +415,8 @@ export const stockList: Stock[] = [
         width: '88cm',
         height: '12cm',
         depth: '1,88m'
-      }
+      },
+      price: 19000 * 2
     },
     amount: 2,
   },
@@ -402,7 +430,8 @@ export const stockList: Stock[] = [
         width: '79cm',
         height: '79cm',
         depth: '1,05cm'
-      }
+      },
+      price: 35000 * 2
     },
     amount: 1,
   },
@@ -416,7 +445,8 @@ export const stockList: Stock[] = [
         width: '2,28m',
         height: '2,32m',
         depth: '58cm'
-      }
+      },
+      price: 70000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -431,7 +461,8 @@ export const stockList: Stock[] = [
         width: '1,38m',
         height: '12cm',
         depth: '1,88m'
-      }
+      },
+      price: 28000 * 2
     },
     amount: 5,
   },
@@ -464,7 +495,8 @@ export const stockList: Stock[] = [
     product: {
       name: 'Poltrona Bibi Impermeável Floral',
       branch: 'Molufan',
-      imageURL: 'molufan-poltrona-bibi-impermeavel-floral.png'
+      imageURL: 'molufan-poltrona-bibi-impermeavel-floral.png',
+      price: 25000 * 2
     },
     amount: 1,
   }
