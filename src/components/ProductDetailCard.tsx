@@ -5,17 +5,17 @@ import { ProductWidthIcon } from "./ProductWidthIcon";
 import { ProductDimensionProperty } from "./ProductDimensionProperty";
 import { ProductHeightIcon } from "./ProductHeightIcon";
 import { ProductDepthIcon } from "./ProductDepthIcon";
+import { getFormattedPrice } from "../utils/StringUtil";
 
 interface ProductDetailCardProps {
   stockProduct: Stock;
 }
 
 export function ProductDetailCard({ stockProduct }: ProductDetailCardProps) {
-  console.log('meta: ', import.meta.env.BASE_URL);
 
   return (
     <div className="-mt-4 md:mt-3 p-1.5 md:p-2 bg-gray-600 rounded-lg">
-      <div className="flex flex-col md:flex-row w-full px-5 py-5 bg-gray-100 rounded-lg gap-3 md:gap-7">
+      <div className="flex flex-col md:flex-row w-full p-5 bg-gray-100 rounded-lg gap-3 md:gap-7">
 
         {stockProduct.product.imageURL ?
           <div className="flex w-full md:w-1/2 h-42 md:h-128 items-center">
@@ -48,15 +48,27 @@ export function ProductDetailCard({ stockProduct }: ProductDetailCardProps) {
             </Text>
           </div>
 
-          <div className="flex gap-1 mt-2 md:mt-8 pt-1 text-base md:text-2xl">
-            <Text className=" text-gray-400">
-              Estoque:
-            </Text>
+          <div className="flex mt-2 text-base md:text-2xl justify-between">
+            <div className="flex gap-1 mt-2 md:mt-8 pt-1">
+              <Text className=" text-gray-400">
+                Estoque:
+              </Text>
 
-            <Text className=" text-blue-400 font-bold">
-              {String(stockProduct.amount).padStart(2, "0")}
-            </Text>
+              <Text className=" text-blue-400 font-bold">
+                {String(stockProduct.amount).padStart(2, "0")}
+              </Text>
+            </div>
+
+            {stockProduct.product.price &&
+              <div className="mr-1 mt-2 md:mt-8 pt-1">
+                <Text className="text-sky-700 font-bold">
+                  {getFormattedPrice(stockProduct.product.price)}
+                </Text>
+              </div>
+            }
           </div>
+
+
 
           {stockProduct.product.size &&
             <div className="flex flex-col gap-3 mt-5 text-base md:text-xl">

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { CameraSlash } from "phosphor-react";
 import { Text } from "../components/Text";
 import { Stock } from "../types/stock";
+import { getFormattedPrice } from "../utils/StringUtil";
 
 interface ProductCardProps {
   stockProduct: Stock;
@@ -42,14 +43,24 @@ export function ProductCard({ stockProduct }: ProductCardProps) {
           </Text>
         </div>
 
-        <div className="flex gap-1 mt-2 pt-1">
-          <Text className=" text-gray-400 text-sm">
-            Estoque:
-          </Text>
+        <div className="flex mt-2 text-sm justify-between">
+          <div className="flex gap-1 pt-1">
+            <Text className=" text-gray-400">
+              Estoque:
+            </Text>
 
-          <Text className=" text-blue-400 text-sm font-bold">
-            {String(stockProduct.amount).padStart(2, "0")}
-          </Text>
+            <Text className=" text-blue-400 font-bold">
+              {String(stockProduct.amount).padStart(2, "0")}
+            </Text>
+          </div>
+
+          {stockProduct.product.price &&
+            <div className="mr-1 pt-1">
+              <Text className="text-sky-700 font-bold">
+                {getFormattedPrice(stockProduct.product.price)}
+              </Text>
+            </div>
+          }
         </div>
 
         {stockProduct.isAssembled &&

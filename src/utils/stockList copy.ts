@@ -16,7 +16,7 @@ export const stockList: Stock[] = [
         height: '47cm',
         depth: '45cm'
       },
-      price: 15400 * 2
+      price: 15000 * 2
     },
     amount: 4
   },
@@ -106,7 +106,7 @@ export const stockList: Stock[] = [
         height: '1,33m',
         depth: '22cm'
       },
-      price: 20000 * 2
+      price: 19500 * 2
     },
     amount: 1,
     isAssembled: true
@@ -182,7 +182,7 @@ export const stockList: Stock[] = [
         height: '97cm',
         depth: '33cm'
       },
-      price: 15500 * 2
+      price: 16000 * 2
     },
     amount: 4
   },
@@ -197,7 +197,7 @@ export const stockList: Stock[] = [
         height: '97cm',
         depth: '33cm'
       },
-      price: 15500 * 2
+      price: 16000 * 2
     },
     amount: 2
   },
@@ -237,7 +237,7 @@ export const stockList: Stock[] = [
         height: '1,07m',
         depth: '45cm'
       },
-      price: 26500 * 2
+      price: 26000 * 2
     },
     amount: 1
   },
@@ -252,7 +252,7 @@ export const stockList: Stock[] = [
         height: '2,34m',
         depth: '56cm'
       },
-      price: 84500 * 2
+      price: 65000 * 2
     },
     amount: 1
   },
@@ -297,7 +297,7 @@ export const stockList: Stock[] = [
         height: '1,15m',
         depth: '46cm'
       },
-      price: 60000 * 2
+      price: 54500 * 2
     },
     amount: 2
   },
@@ -312,7 +312,7 @@ export const stockList: Stock[] = [
         height: '59cm',
         depth: '46cm'
       },
-      price: 40000 * 2
+      price: 39000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -328,7 +328,7 @@ export const stockList: Stock[] = [
         height: '59cm',
         depth: '46cm'
       },
-      price: 40000 * 2
+      price: 39000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -344,7 +344,7 @@ export const stockList: Stock[] = [
         height: '55cm',
         depth: '36cm'
       },
-      price: 7000 * 2
+      price: 9000 * 2
     },
     amount: 2
   },
@@ -354,7 +354,7 @@ export const stockList: Stock[] = [
       name: 'Criado Mudo 2 Gavetas Modena Camurça/Avelã',
       branch: 'Eucamóveis',
       imageURL: 'eucamoveis-criado-mudo-modena-camurca_avela.png',
-      price: 6900 * 2
+      price: 9500 * 2
     },
     amount: 1
   },
@@ -369,7 +369,7 @@ export const stockList: Stock[] = [
         height: '61cm',
         depth: '36cm'
       },
-      price: 10000 * 2
+      price: 11000 * 2
     },
     amount: 2
   },
@@ -400,7 +400,7 @@ export const stockList: Stock[] = [
         height: '76cm',
         depth: '90cm'
       },
-      price: 35000 * 2
+      price: 34500 * 2
     },
     amount: 1,
     isAssembled: true
@@ -431,7 +431,7 @@ export const stockList: Stock[] = [
         height: '79cm',
         depth: '1,05cm'
       },
-      price: 35000 * 2
+      price: 30000 * 2
     },
     amount: 1,
   },
@@ -462,7 +462,7 @@ export const stockList: Stock[] = [
         height: '12cm',
         depth: '1,88m'
       },
-      price: 28000 * 2
+      price: 25000 * 2
     },
     amount: 5,
   },
@@ -471,7 +471,13 @@ export const stockList: Stock[] = [
     product: {
       name: 'Antena Externa Digital UHF LP3000 28 Elementos',
       branch: 'Primetech',
-      imageURL: 'primetech-antena-externa-lp3000-28-elem-02.jpg'
+      imageURL: 'primetech-antena-externa-lp3000-28-elem-02.jpg',
+      size: {
+        width: '34cm',
+        height: '6cm',
+        depth: '97cm'
+      },
+      price: 2500 * 2
     },
     amount: 8,
   },
@@ -485,7 +491,8 @@ export const stockList: Stock[] = [
         width: '1,83m',
         height: '68cm',
         depth: '45cm'
-      }
+      },
+      price: 32000 * 2
     },
     amount: 1,
     isAssembled: true
@@ -496,7 +503,7 @@ export const stockList: Stock[] = [
       name: 'Poltrona Bibi Impermeável Floral',
       branch: 'Molufan',
       imageURL: 'molufan-poltrona-bibi-impermeavel-floral.png',
-      price: 25000 * 2
+      price: 27500 * 2
     },
     amount: 1,
   }

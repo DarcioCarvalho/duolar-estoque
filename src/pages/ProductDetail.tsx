@@ -31,7 +31,7 @@ export function ProductDetail() {
 
       </header>
 
-      <main className="px-12">
+      <main className="px-12 pb-8">
 
         <Link
           className="flex flex-row ml-1 md:ml-6 relative -top-6 items-center w-min"

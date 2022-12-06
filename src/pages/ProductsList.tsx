@@ -37,7 +37,7 @@ export function ProductsList() {
   return (
     <div className="flex flex-col max-w-300 h-screen mx-auto">
 
-      <header className="flex h-32 mt-3 md:mt-10 px-2 md:px-10 items-start justify-between">
+      <header className="flex h-16 md:h-32 mt-3 md:mt-10 px-2 md:px-10 items-start justify-between">
         <img src={duolarLogo} className="h-10 md:h-20" alt="Duolar logo" />
 
         <Heading className="mt-0.5">
