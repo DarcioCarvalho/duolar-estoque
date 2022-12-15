@@ -10,7 +10,7 @@ export const stockList: Stock[] = [
     product: {
       name: 'Criado Mudo 1 Gaveta Copacabana',
       branch: 'Riamar',
-      imageURL: '',
+      imageURL: 'riamar-criado-mudo-copacabana-1-gaveta-imbuia.png',
       size: {
         width: '47cm',
         height: '47cm',
