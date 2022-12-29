@@ -169,7 +169,7 @@ export const stockList: Stock[] = [
       },
       price: 20000 * 2
     },
-    amount: 1
+    amount: 0
   },
   {
     id: 12,
@@ -386,7 +386,7 @@ export const stockList: Stock[] = [
       },
       price: 80000 * 2
     },
-    amount: 1,
+    amount: 0,
     isAssembled: true
   },
   {
@@ -402,7 +402,7 @@ export const stockList: Stock[] = [
       },
       price: 34500 * 2
     },
-    amount: 1,
+    amount: 0,
     isAssembled: true
   },
   {
