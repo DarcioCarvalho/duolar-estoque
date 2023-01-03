@@ -506,5 +506,25 @@ export const stockList: Stock[] = [
       price: 27500 * 2
     },
     amount: 1,
+  },
+  {
+    id: 35,
+    product: {
+      name: 'Cadeira Torneada Grande Imbuia',
+      branch: 'Scholl',
+      imageURL: 'scholl-cadeira-torneada-grande-imbuia.png',
+      price: 11500 * 2
+    },
+    amount: 8,
+  },
+  {
+    id: 36,
+    product: {
+      name: 'Cadeira Torneada Grande Branca',
+      branch: 'Scholl',
+      imageURL: 'scholl-cadeira-torneada-grande-branca.png',
+      price: 11500 * 2
+    },
+    amount: 16,
   }
 ];
