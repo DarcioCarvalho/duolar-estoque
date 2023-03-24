@@ -14,6 +14,8 @@ O usuário consegue filtrar a lista através de uma busca dinâmica.
 
 Essa aplicação é responsiva permitindo ao usuário acessa-la desde desktop a smartphone de modo confortável e usável.
 
+[ACESSE A APLICAÇÃO](https://darciocarvalho.github.io/duolar-estoque/)
+
 ## ✨ Tecnologia
 
 - [TypeScript](https://www.typescriptlang.org/)
