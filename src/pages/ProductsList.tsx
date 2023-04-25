@@ -68,9 +68,7 @@ export function ProductsList() {
 
         </div>
 
-
       </main>
-
 
     </div>
   );
