@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ mode }) => {
 
   return {
-    appType: 'mpa',  
+    appType: mode === "development" ? 'spa' : 'mpa',
     plugins: [react()],
     base: mode === "development" ? '' : '/duolar-estoque/'
   }
