@@ -418,7 +418,7 @@ export const stockList: Stock[] = [
       },
       price: 19000 * 2
     },
-    amount: 2,
+    amount: 1,
   },
   {
     id: 29,
@@ -464,7 +464,7 @@ export const stockList: Stock[] = [
       },
       price: 25000 * 2
     },
-    amount: 5,
+    amount: 4,
   },
   {
     id: 32,
