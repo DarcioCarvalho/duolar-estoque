@@ -242,21 +242,6 @@ export const stockList: Stock[] = [
     amount: 1
   },
   {
-    id: 17,
-    product: {
-      name: 'Guarda Roupa 4 Portas Pádua Noce Bronze',
-      branch: 'Lanza',
-      imageURL: 'lanza-roupeiro-padua-noce.png',
-      size: {
-        width: '1,63m',
-        height: '2,34m',
-        depth: '56cm'
-      },
-      price: 65000 * 2
-    },
-    amount: 1
-  },
-  {
     id: 18,
     product: {
       name: 'Cama Casal 1.40 Montreal Plus Castanho Relevo',
